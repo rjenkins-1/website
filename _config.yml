@@ -1,0 +1,9 @@
+title: Ross Jenkins
+description: Ross Jenkins — musician and writer.
+url: "https://rjenkins-1.github.io"
+baseurl: "https://rjenkins-1.github.io"
+
+markdown: kramdown
+
+exclude:
+  - README.md

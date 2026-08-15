@@ -1,0 +1,142 @@
+:root {
+  --paper: #f5f1e9;
+  --ink: #111;
+  --rule: #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+main {
+  width: min(calc(100% - 48px), 840px);
+  margin-left: clamp(24px, 6vw, 92px);
+  padding: 48px 0 90px;
+}
+
+h1 {
+  margin: 0 0 70px;
+  max-width: 650px;
+  font-size: 30px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+figure {
+  margin: 0 0 60px;
+}
+
+figure img {
+  display: block;
+  width: 180px;
+  max-width: 25vw;
+  height: auto;
+}
+
+.intro {
+  max-width: 520px;
+  margin-bottom: 36px;
+}
+
+.intro p {
+  margin: 0;
+}
+
+.bandcamp {
+  display: inline-block;
+  margin-bottom: 72px;
+  color: inherit;
+  text-underline-offset: 4px;
+}
+
+.contact {
+  padding-top: 38px;
+}
+
+.contact h2 {
+  margin: 0 0 36px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.field {
+  max-width: 440px;
+  margin-bottom: 32px;
+}
+
+.message-field {
+  max-width: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+textarea {
+  min-height: 105px;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom-color: var(--ink);
+}
+
+button {
+  padding: 0 0 3px;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    padding-top: 36px;
+  }
+
+  h1 {
+    margin-bottom: 48px;
+    font-size: 22px;
+  }
+
+  figure {
+    margin-bottom: 44px;
+  }
+
+  figure img {
+    width: 120px;
+    max-width: none;
+  }
+
+  .bandcamp {
+    margin-bottom: 54px;
+  }
+}
