@@ -1,7 +1,7 @@
 title: Ross Jenkins
 description: Ross Jenkins — musician and writer.
 url: ""
-baseurl: ""
+baseurl: "website"
 
 markdown: kramdown
 
