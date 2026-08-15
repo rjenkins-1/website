@@ -3,7 +3,7 @@ layout: default
 title: Ross Jenkins
 ---
 
-<h1>Ross Jenkins,<br>etc.
+<h1>Ross Jenkins,<br>etc.</h1>
 
 <figure>
   <img src="{{ '/assets/ross.jpg' | relative_url }}" alt="Portrait of Ross Jenkins">
