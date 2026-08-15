@@ -3,7 +3,7 @@ layout: default
 title: Ross Jenkins
 ---
 
-<h1>Ross Jenkins,<br>etc. unknown permanent,</h1>
+<h1>Ross Jenkins,<br>etc.
 
 <figure>
   <img src="{{ '/assets/ross.jpg' | relative_url }}" alt="Portrait of Ross Jenkins">
@@ -12,7 +12,7 @@ title: Ross Jenkins
 <section class="intro" aria-label="Introduction">
   <p>
     Ross is a musician and writer.<br>
-    His latest album, <em>Free All Day</em>, was released in 2022.<br>
+    His latest album <em>Free All Day</em> was released in 2022.<br>
     He is easy to find.
   </p>
 </section>
