@@ -1,7 +1,5 @@
 # Ross Jenkins site
 
-Minimal Jekyll site for Ross Jenkins.
-
 ## Structure
 
 - `index.md` — page content
@@ -12,18 +10,18 @@ Minimal Jekyll site for Ross Jenkins.
 
 ## Contact form
 
-The contact form currently contains a placeholder Formspree endpoint:
+contact form currently contains a placeholder Formspree endpoint:
 
 `https://formspree.io/f/YOUR_FORMSPREE_ID`
 
-Replace `YOUR_FORMSPREE_ID` with the ID supplied by Formspree before relying on the form.
+Replace `YOUR_FORMSPREE_ID` with the ID supplied by Formspree before relying on the form
 
 ## Local preview
 
-If Jekyll is installed:
+Jekyll is installed:
 
 ```bash
 bundle exec jekyll serve
 ```
 
-Then open the local address Jekyll prints in the terminal.
+local address Jekyll prints in the terminal
